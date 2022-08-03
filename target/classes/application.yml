@@ -1,0 +1,15 @@
+
+spring:
+  data:
+    mongodb:
+      database: sistemafinanciero
+      port: 27017
+  application:
+    name: AccountApplication
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8010
